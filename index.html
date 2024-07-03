@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.transform2d.js"></script>
+    <script src="js/custom.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <ul class="showM">
+        <li class="mrL"><a href="#page1">HOME</a></li>
+        <li><a href="#page2">ABOUT</a></li>
+        <li><a href="#page3">PORTFOLIO</a></li>
+        <li><a href="#page4">DESIGN</a></li>
+      </ul>
+    </header>
+    <div id="container">
+      <section id="page1">
+        <h3>2024 HYJ PORTFOLIO</h3>
+        <h1>
+          "성실함과 지속적 발전을 통해<br />
+          현대적이고 전문적인 디자인으로
+        </h1>
+        <h2>
+          모두의 니즈를 충족시키는,<br />
+          잠재성이 무한한 웹디자이너"
+        </h2>
+        <img class="Fflower" src="img/2437e5de2066cf9779566ad9540b0e5f.png" />
+        <img class="Fflower2" src="img/2437e5de2066cf9779566ad9540b0e5f.png" />
+        <img class="logo" src="img/개인-로고1.png" />
+        <div class="wrap">
+          <i class="fa-solid fa-circle circle"></i>
+        </div>
+        <p>SCROLL DOWN</p>
+        <ul id="nav">
+          <li class="on"><a href="#page1"></a></li>
+          <li><a href="#page2"></a></li>
+          <li><a href="#page3"></a></li>
+          <li><a href="#page4"></a></li>
+        </ul>
+      </section>
+      <section id="page2">
+        <div>
+          <h3>01<span> ABOUT ME</span></h3>
+          <div class="showL">
+            <div class="me"><p>2000.03.05</p></div>
+            <div class="bgP"></div>
+          </div>
+          <img
+            class="flowerme"
+            src="img/2437e5de2066cf9779566ad9540b0e5f.png"
+          />
+
+          <!-- Swiper -->
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                name : 허예지<br />
+                age : 만 24세<br />
+                e-mail : dpwl2060@naver.com<br />
+                phone number : 010-5829-2060
+              </div>
+              <div class="swiper-slide">
+                취득 자격증<br />
+                웹디자인기능사<br />
+                GTQ 1급<br />
+                커퓨터활용능력 1급 필기<br />
+                전산회계1급
+              </div>
+              <div class="swiper-slide">
+                전공인 경영학애서 얻은 분석력과<br />
+                원활한 커뮤니케이션으로<br />
+                사용자의 니즈를 충족시켜줄 수 있는<br />
+                웹디자이너가 되겠습니다.
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper1", {
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+          <ul class="tag">
+            <li><a href="#page2">#신입</a></li>
+            <li><a href="#page3">#웹퍼블리셔</a></li>
+            <li><a href="#page4">#웹디자이너</a></li>
+            <li><a href="#page3">#웹기획</a></li>
+          </ul>
+        </div>
+        <h2>I CAN DO <span>THIS!</span></h2>
+        <div id="cando">
+          <div>
+            <ul class="doit">
+              <li><img src="img/react.png" /></li>
+              <li><img src="img/github.png" /></li>
+              <li><img src="img/figma.png" /></li>
+              <li><img src="img/html.png" /></li>
+              <li><img src="img/css.png" /></li>
+              <li><img src="img/js.png" /></li>
+              <li><img src="img/ps.jpg" /></li>
+              <li><img src="img/ai.jpg" /></li>
+              <li><img src="img/한글.png" /></li>
+              <li><img src="img/엑셀.png" /></li>
+              <li><img src="img/피피티.png" /></li>
+              <li><img src="img/워드.png" /></li>
+              <li><img src="img/엑세스.svg" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="page3">
+        <h3>02<span> PORTFOLIO</span></h3>
+        <div class="Pbg">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <ul class="Pslide">
+                  <li class="con1">
+                    <img class="lush" src="img/lush.PNG" />
+                  </li>
+                  <li class="con2">
+                    <h4><span>LUSH</span></h4>
+                    <h5>
+                      - 기업형 홈페이지<br />
+                      - 반응형 홈페이지<br />
+                      #html #css #js
+                    </h5>
+                    <a href="https://heoyeji.github.io/lush/">홈페이지</a>
+                    <button id="planButton">기획안</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <ul class="Pslide">
+                  <li class="con1">
+                    <img class="santaN" src="img/santanovella.png" />
+                  </li>
+                  <li class="con2">
+                    <h4><span>Santa Maria Novella</span></h4>
+                    <h5>
+                      -반응형 홈페이지<br />
+
+                      #html #css #js #react
+                    </h5>
+                    <a href="https://heoyeji.github.io/">홈페이지</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <ul class="Pslide">
+                  <li class="con1">
+                    <img class="movie" src="img/movie.png" />
+                  </li>
+                  <li class="con2">
+                    <h4><span>Heoigo</span></h4>
+                    <h5>
+                      -반응형 홈페이지<br />
+                      -영화 api 홈페이지<br />
+                      #html #css #js #api
+                    </h5>
+                    <a href="https://heoyeji.github.io/movie_api/">홈페이지</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <ul class="Pslide">
+                  <li class="con1">
+                    <img class="weather" src="img/weather_api.png" />
+                  </li>
+                  <li class="con2">
+                    <h4><span>Weather_api</span></h4>
+                    <h5>
+                      - 날씨 어플리케이션<br />
+                      - 반응형 홈페이지<br />
+                      #html #css #js #api
+                    </h5>
+                    <a href="https://heoyeji.github.io/weatherapp/">홈페이지</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <ul class="Pslide">
+                  <li class="con1">
+                    <img class="todolist" src="img/todolist.png" />
+                  </li>
+                  <li class="con2">
+                    <h4><span>To Do List</span></h4>
+                    <h5>
+                      - Scheduler<br />
+                      - Daily Planner<br />
+                      #html #css #js
+                    </h5>
+                    <a href="https://heoyeji.github.io/todolist/">홈페이지</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <ul class="Pslide">
+                  <li class="con1">
+                    <img class="numberB" src="img/numberBingo.png" />
+                  </li>
+                  <li class="con2">
+                    <h4><span>Number Bingo</span></h4>
+                    <h5>
+                      - 숫자 맞추기 게임<br />
+                      - 반응형 홈페이지<br />
+                      #html #css #js
+                    </h5>
+                    <a href="https://heoyeji.github.io/numberbingo/"
+                      >홈페이지</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div id="myModal" class="modal">
+            <span class="close" id="close1">&times;</span>
+            <iframe id="iframeContent1" class="modal-content"></iframe>
+          </div>
+          <div id="myModal2" class="modal2">
+            <span class="close" id="close2">&times;</span>
+            <iframe id="iframeContent2" class="modal-content2"></iframe>
+          </div>
+          <div id="myModal3" class="modal3">
+            <span class="close" id="close3">&times;</span>
+            <iframe id="iframeContent3" class="modal-content3"></iframe>
+          </div>
+
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+          <img class="flower" src="img/2437e5de2066cf9779566ad9540b0e5f.png" />
+        </div>
+      </section>
+      <section id="page4">
+        <div class="halfP"></div>
+        <h3>03<span> DESIGN</span></h3>
+
+        <img class="flower" src="img/2437e5de2066cf9779566ad9540b0e5f.png" />
+        <!-- Swiper -->
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="Dimg1" src="img/to-do-list.png" />
+            </div>
+            <div class="swiper-slide">
+              <img class="Dimg2" src="img/black-friday.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="Dimg3" src="img/한가위.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="Dimg4"
+                style="height: 75vh"
+                src="img/롬앤시안 - 복사본 - 복사본.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="Dimg5"
+                style="height: 180vh"
+                src="img/코스메틱-최종시안.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="Dimg6"
+                style="height: 100vh"
+                src="img/코스메틱-최종시안 - 복사본 (2).jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="Dimg7"
+                style="height: 50vh"
+                src="img/코스메틱-최종시안 - 복사본.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="Dimg"
+                src="https://swiperjs.com/demos/images/nature-8.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="Dimg"
+                src="https://swiperjs.com/demos/images/nature-9.jpg"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div id="myModal4" class="modal4">
+          <span class="close" id="close4">&times;</span>
+          <iframe id="iframeContent4" class="modal-content4"></iframe>
+        </div>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper3", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+            },
+          });
+        </script>
+        <h4>디자인 작업물들을 소개합니다</h4>
+        <footer id="page5">
+          <marquee direction="right" scrollamount="20" loop="infinite"
+            ><h2>
+              Thank you for watching my <span>Portfolio</span> Thank you for
+              watching my <span>Portfolio</span> Thank you for watching my
+              <span>Portfolio</span> Thank you for watching my
+              <span>Portfolio</span>
+            </h2></marquee
+          >
+          <ul>
+            <li><img src="img/2437e5de2066cf9779566ad9540b0e5f.png" /></li>
+            <li><img src="img/2437e5de2066cf9779566ad9540b0e5f.png" /></li>
+          </ul>
+
+          <div>
+            <p>
+              e-mail : dpwl2060@naver.com<br />
+              phone : 010-5829-2060
+            </p>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
