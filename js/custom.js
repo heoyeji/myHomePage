@@ -73,7 +73,7 @@ $(function () {
   var planButton = document.getElementById("planButton");
   planButton.onclick = function () {
     modal2.style.display = "block";
-    iframe2.src = "img/기획서 최최종1.5.jpg";
+    iframe2.src = "img/기획서 최최종.pdf";
   };
 
   window.onclick = function (event) {
