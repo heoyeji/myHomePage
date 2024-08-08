@@ -42,7 +42,9 @@ $(function () {
         iframe4.src = "img/black-friday.jpg";
       } else if (this.classList.contains("Dimg3")) {
         iframe4.src = "img/한가위.jpg";
-      } else {
+      } else if (this.classList.contains("Dimg4")) {
+        iframe4.src = "img/사과.jpg";
+      }else {
         iframe4.src = "";
       }
     });
