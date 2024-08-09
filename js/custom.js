@@ -37,13 +37,13 @@ $(function () {
     img.addEventListener("click", function () {
       modal4.style.display = "block";
       if (this.classList.contains("Dimg1")) {
-        iframe4.src = "img/to-do-list.png";
+        iframe4.src = "img/사과.jpg";
       } else if (this.classList.contains("Dimg2")) {
         iframe4.src = "img/black-friday.jpg";
       } else if (this.classList.contains("Dimg3")) {
         iframe4.src = "img/한가위.jpg";
       } else if (this.classList.contains("Dimg4")) {
-        iframe4.src = "img/사과.jpg";
+        iframe4.src = "img/to-do-list.png";
       }else {
         iframe4.src = "";
       }
